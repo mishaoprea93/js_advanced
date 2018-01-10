@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>GitHub</title>
+    <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+
+</head>
+
+<body>
+    <button id="thisbutton">Find out your username on github! </button>
+    <script>
+        var button1 = document.getElementById("thisbutton");
+        button1.addEventListener("Click", $.get("https://api.github.com/users/mishaoprea93", displayName))
+
+        function displayName(data) {
+            console.log(data);
+            var html = "";
+            html += "<h1>" + data.login + "</h1>";
+            $("#tag").html(html);
+        }
+    </script>
+
+    <div id="tag">
+
+    </div>
+</body>
+
+</html>

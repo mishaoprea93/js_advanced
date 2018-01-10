@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="DojoQuery.js"></script>
+    <title>DojoQuery</title>
+</head>
+
+<body>
+    <button id="bt1">Button1</button>
+    <button id="bt2">Button2</button>
+    <button id="bt3">Button3</button>
+    <script>
+        $Dojo("bt1").click(function() {
+            console.log("The button was clicked!")
+        });
+        $Dojo("bt2").hover(function() {
+            console.log("The button was hovered on!")
+        }, function() {
+            console.log("The button was hovered out!")
+        });
+    </script>
+</body>
+
+</html>

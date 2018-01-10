@@ -1,0 +1,16 @@
+1)new keyword - creates an object ,return an object;
+              
+2)class is a set of attributes that serves as a blueprint;
+
+3)functions always return something;
+
+4)Return-gives us the result of a function;
+        -returns something;
+5)number,strings,boolean,undefined,null,simbles;
+
+6)objects;
+
+7)elements of an object can be pulled without iterations;
+
+
+
